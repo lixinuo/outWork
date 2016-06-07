@@ -1,0 +1,179 @@
+﻿@import url("Base.css");
+html{ width:100%; height:100%;}
+body {
+	color:#333;
+	outline:none;
+	font-family:"微软雅黑";
+	height:100%;
+}
+
+input {
+	font-size:13px;
+	outline:none;
+}
+textarea {
+	font-size:13px;
+	outline:none;
+}
+a:link,a:visited,a:active {
+	color:#333;
+	text-decoration:none;
+}
+a:hover {
+	outline:none;
+	color:#ff0000;
+	text-decoration:none;
+}
+.radius50{-webkit-border-radius:50%; -moz-border-radius:50%; border-radius:50%;}
+/*===================================================================================*/
+#main{width:100%;height:100%;}
+/*头部欢迎区域*/
+
+/*逼格帮*/
+#forcedMain,#weddingMain,#sayMain,#cityMain { float: left; background-color: #f5f5f5; width: 100%; border-top: 1px solid #e0e0e0; }
+#forcedMain .mainCenter,#weddingMain .mainCenter,#sayMain .mainCenter { width: 1200px; margin: 0 auto; padding-top: 80px;}
+#cityMain .mainCenter {  width: 1200px; margin: 0 auto; padding-top: 20px;}
+#forcedMain .mainCenter .centerLogo { float: left; width: 658px; height: 110px; margin-right: 25px; background: url("../image/forcedLogo.png") center no-repeat; padding: 25px 0 0 210px; position: relative; border: 1px solid #ededed;}
+#forcedMain .mainCenter .centerLogo .logoFloat { position: absolute; width: 160px; height: 160px; left: 40px; top: -45px; background: url("../image/forcedLogo2.png") center no-repeat;}
+
+/*创意拍婚纱*/
+#weddingMain .mainCenter .centerLogo { float: left; width: 658px; height: 110px; margin-right: 25px; background: url("../image/weddingLogo.png") center no-repeat; padding: 25px 0 0 210px; position: relative; border: 1px solid #ededed;}
+#weddingMain .mainCenter .centerLogo .logoFloat { position: absolute; width: 160px; height: 160px; left: 40px; top: -45px; background: url("../image/weddingLogo2.png") center no-repeat;}
+
+/*她们说*/
+#sayMain .mainCenter .centerLogo { float: left; width: 658px; height: 110px; margin-right: 25px; background: url("../image/sayLogo.png") center no-repeat; padding: 25px 0 0 210px; position: relative; border: 1px solid #ededed;}
+#sayMain .mainCenter .centerLogo .logoFloat { position: absolute; width: 160px; height: 160px; left: 40px; top: -45px; background: url("../image/sayLogo2.png") center no-repeat;}
+
+
+.mainCenter .centerLogo .logoContent1,.mainCenter .centerLogo .logoContent2 { height: 20px; line-height: 20px; margin-bottom: 12px;}
+.mainCenter .centerLogo h2 { display: inline-block; font-size: 20px; color:#fff; margin-right: 15px; font-weight: normal;}
+.mainCenter .centerLogo a { display: inline-block; width:40px; background-color: #fe0032; color: #fff; text-align: center; cursor: pointer; margin-right: 15px;}
+.mainCenter .centerLogo .perNum { color: #fff; font-weight: bold; margin-right: 15px;}
+.mainCenter .centerLogo .normal { color: #fff;}
+.mainCenter .centerLogo .new { display: inline-block; height: 30px; line-height: 30px; width: 60px; font-size: 14px; color: #fff; background-color: #dbaa00;}
+/*logo*/
+
+.mainCenter .sign { float: left; width: 303px; height: 135px; position: relative; background: url("../image/forcedSign.png") 190px 20px no-repeat #fff; border: 1px solid #ededed;}
+.mainCenter .contentRight .sign { margin-bottom: 22px;}
+.mainCenter .sign .num { margin: 45px 0 5px 40px; font-size: 26px; font-weight: normal;}
+.mainCenter .sign .caption { margin-left: 40px;}
+.mainCenter .sign .signIn { position: absolute; top: 85px; left: 175px; width:85px; height: 30px; line-height: 30px; color: #fff; background-color: #fe0032; border:2px solid #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; text-align: center; -webkit-box-shadow: 0 5px 5px #ffd9e0; -moz-box-shadow: 0 5px 5px #ffd9e0; box-shadow: 0 5px 5px #ffd9e0; cursor: pointer;}
+.mainCenter .sign .signIn { position: absolute; top: 85px; left: 175px; width:85px; height: 30px; line-height: 30px; color: #fff; background-color: #fe0032; border:2px solid #fff; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; text-align: center; -webkit-box-shadow: 0 5px 5px #ffd9e0; -moz-box-shadow: 0 5px 5px #ffd9e0; box-shadow: 0 5px 5px #ffd9e0; cursor: pointer;}
+.mainCenter .sign .signClick { background-color: #ccc; -webkit-box-shadow: 0 5px 5px #ccc; -moz-box-shadow: 0px 5px 5px #ccc; box-shadow: 0px 5px 5px #ccc;}
+/*签到*/
+
+.mainCenter .content { float: left; width:100%; margin-top: 25px;}
+.mainCenter .content .contentLeft { float: left; width: 868px; margin-right: 25px;  }
+.mainCenter .content .contentLeft .topic { float: left; width: 868px; height: 100%; background-color: #fff; border: 1px solid #ededed;}
+.mainCenter .content .contentLeft .topic .nav { float: left; width: 100%; margin-top: 30px; margin-bottom: 27px;}
+.mainCenter .content .contentLeft .topic .nav span { margin-left: 35px; font-size: 14px; cursor: pointer;}
+.mainCenter .content .contentLeft .topic .nav .chose { color: red;}
+.mainCenter .content .contentLeft .details {width: 805px; float: left; margin-left: 35px;}
+.mainCenter .content .contentLeft .details .list { float: left; width: 100%; height: 50px; border-top: 1px solid #ddd; padding-top: 25px; padding-bottom: 25px;}
+.mainCenter .content .contentLeft .details .list .pic { float: left; height: 50px; width: 50px; overflow: hidden; }
+.mainCenter .content .contentLeft .details .list .title { float: left; margin-left: 15px; margin-bottom: 10px; width: 740px; position: relative;}
+.mainCenter .content .contentLeft .details .list .title a { display: inline-block; float: left; max-width: 550px; color: red; font-size: 14px;}
+.mainCenter .content .contentLeft .details .list .title a:hover { cursor: pointer;}
+.mainCenter .content .contentLeft .details .list .title span { position: absolute; right: 0; bottom: 0;}
+.mainCenter .content .contentLeft .details .list .message { float: left; margin-left: 15px;}
+.mainCenter .content .contentLeft .details .list .message span { margin-right: 15px;  padding-left: 22px;}
+.mainCenter .content .contentLeft .details .list .message .person { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 0;}
+.mainCenter .content .contentLeft .details .list .message .view { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 -16px;}
+.mainCenter .content .contentLeft .details .list .message .comment { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 -32px;}
+.mainCenter .content .contentLeft .page { float: left; margin: 10px 180px 50px; }
+.mainCenter .content .contentLeft .page ul {}
+.mainCenter .content .contentLeft .page ul li { float: left; width: 70px; height: 30px; color: #fff; background-color: #ccc;}
+.mainCenter .content .contentLeft .page ul .liNum { width: 30px;}
+/*话题列表*/
+
+.content .contentLeft .hotCity { float: left; width: 868px; height: 100%; margin-bottom: 22px; background-color: #fff; border: 1px solid #ededed;}
+.content .contentLeft .hotCity h3 { float: left; width: 100%; margin: 26px 0 0 26px; font-size: 20px; font-weight: normal;}
+.content .contentLeft .hotCity ul { float: left; margin: 30px 25px 0;}
+.content .contentLeft .hotCity ul li { float: left; width: 90px; text-align: center; margin-bottom: 33px;}
+.content .contentLeft .hotCity ul li a:hover { cursor: pointer;}
+.content .contentLeft .hotCity ul li .hot { color: red;}
+/*热门城市*/
+
+.content .contentLeft .article { float: left; width: 868px; height: 100%; margin-bottom: 22px; background-color: #fff; border: 1px solid #ededed; position: relative;}
+.content .contentLeft .article h3 { float: left; margin: 26px 18px 0 26px; font-size: 20px; font-weight: normal;}
+.content .contentLeft .article .articleStartTime { float: left; margin-top: 34px;}
+.content .contentLeft .article .more { position: absolute; top: 30px; right: 23px; font-size: 14px; background: url("../image/box3All.png") right center no-repeat; padding-right: 20px; cursor: pointer;}
+.content .contentLeft .article .articleDetail { float: left; width: 814px; padding: 27px;}
+.content .contentLeft .article .articleDetail img { display: inline-block; float: left; width: 446px; height: 264px; overflow: hidden;}
+.content .contentLeft .article .articleDetail .detailRight { float: left; padding-left: 20px; width: 348px; height: 264px; overflow: hidden; position: relative;}
+.content .contentLeft .article .articleDetail h4 { float: left; font-size: 18px;}
+.content .contentLeft .article .articleDetail .detailRight .articleMessage { float: left; padding: 17px 0; width: 100%;}
+.content .contentLeft .article .articleDetail .detailRight .articleMessage span { padding: 0 15px 0 22px;}
+.content .contentLeft .article .articleDetail .detailRight .articleMessage .articlePerson { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 0;}
+.content .contentLeft .article .articleDetail .detailRight .articleMessage .articleView { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 -16px;}
+.content .contentLeft .article .articleDetail .detailRight .articleMessage .articleComment { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 -32px;}
+.content .contentLeft .article .articleDetail .detailRight .articleContent { display: inline-block; float: left; line-height: 22px;}
+.content .contentLeft .article .articleDetail .detailRight .articleMore { position: absolute; bottom: 0; right: 0; border: 1px solid #e5e5e5; padding: 8px 25px; cursor: pointer;}
+.content .contentLeft .article .articleLine { float: left; width: 814px; margin-left: 27px;  border-top: 1px solid #f5f5f5;}
+/*文章列表*/
+/*左边内容区域*/
+
+.content .contentRight { float: left; width: 305px; }
+.content .contentRight .box1 { float: left; width: 303px; background-color: #fff; border: 1px solid #ededed; margin-bottom: 23px;}
+.content .contentRight .box1 h3 { font-size: 20px; margin: 27px 0 5px 27px; font-weight: normal;}
+.content .contentRight .box1 .member { display: inline-block; margin: 30px 0 30px 25px; font-size: 14px; cursor: pointer;}
+.content .contentRight .box1 .chose { color: red;}
+.content .contentRight .box1 .boxPic { float: left;  width: 255px; padding: 26px 24px 0; position: relative; z-index: 1;}
+.content .contentRight .box1 .boxPic .line { position: absolute; top: -13px; left: 27px; border-top: 1px solid #f5f5f5; width: 250px; z-index: 10;}
+.content .contentRight .box1 .boxPic ul { float: left;}
+.content .contentRight .box1 .boxPic ul li { float: left;}
+.content .contentRight .box1 .boxPic ul .mid { margin: 0 37px;}
+.content .contentRight .box1 .boxPic img { display: block; width: 60px; height: 60px; background-color: #ccc; overflow: hidden;}
+.content .contentRight .box1 .boxPic span { display: inline-block; margin: 10px 0 25px; width: 60px; text-align: center; font-size: 14px;}
+.content .contentRight .box1 .btn { clear: both; float: left; margin-left: 26px; margin-bottom: 15px; height: 42px; line-height: 42px; width: 248px; color: #fff; background-color: #0289d7; text-align: center; cursor: pointer;}
+.content .contentRight .box1 .create { background-color: #ee0081;}
+.h10 { float: left; height: 10px; width: 100%;}
+/*box1*/
+
+.content .contentRight .box2 { float: left; width: 303px; background-color: #fff; border: 1px solid #ededed; margin-bottom: 23px;}
+.content .contentRight .box2 h3 { font-size: 20px; margin: 27px 0 5px 27px; font-weight: normal;}
+.content .contentRight .box2 ul li { float: left; padding: 15px 0 15px 27px; position: relative; z-index: 1;}
+.content .contentRight .box2 ul li .box2Pic { float: left; width: 60px; height: 60px; overflow: hidden; margin-right: 10px;}
+.content .contentRight .box2 ul li .box2Pic img { width: 60px; height: 60px; background-color: #ccc; overflow: hidden;}
+.content .contentRight .box2 ul li p { float: left; width: 180px; overflow: hidden; padding-bottom: 5px;}
+.content .contentRight .box2 ul li .box2Name { font-size: 14px;}
+.content .contentRight .box2 ul li .line { position: absolute; bottom: 0; left: 27px; border-top: 1px solid #f5f5f5; width: 249px; z-index: 10;}
+/*box2*/
+
+.content .contentRight .box3 { float: left; width: 303px; background-color: #fff; border: 1px solid #ededed; margin-bottom: 23px; position: relative;}
+.content .contentRight .box3 h3 { float: left; font-size: 20px; margin: 27px 0 20px 27px; font-weight: normal;}
+.content .contentRight .box3 .more { position: absolute; top: 30px; right: 23px; font-size: 14px; background: url("../image/box3All.png") right center no-repeat; padding-right: 20px;}
+.content .contentRight .box3 img { height: 148px; width: 303px; border-top: 1px solid #f5f5f5; border-bottom: 1px solid #f5f5f5; overflow: hidden;}
+.content .contentRight .box3 ul { float: left; margin-bottom: 26px;}
+.content .contentRight .box3 ul li { padding: 23px 0 0 26px;}
+.content .contentRight .box3 ul li a { font-size: 14px; }
+/*box3*/
+
+.content .contentRight .box4 { float: left; width: 303px; background-color: #fff; border: 1px solid #ededed; margin-bottom: 23px;}
+.content .contentRight .box4 h3 { float: left; width: 275px; font-size: 20px; margin: 26px 0 0 26px; font-weight: normal; overflow: hidden;}
+.content .contentRight .box4 ul { float: left; margin: 22px 15px 16px 27px;}
+.content .contentRight .box4 ul li { float: left; width: 57px; margin-right: 8px; margin-bottom: 16px;}
+.content .contentRight .box4 ul li img { width: 57px; height: 57px; overflow: hidden;}
+.content .contentRight .box4 ul li a { font-size: 14px; width: 57px; overflow: hidden; cursor: pointer;}
+/*box4*/
+
+.content .contentRight .box5 { float: left; width: 303px; background-color: #fff; border: 1px solid #ededed; margin-bottom: 23px;}
+.content .contentRight .box5 img { padding: 56px 66px 23px 67px; width: 170px; height: 170px; overflow: hidden;}
+.content .contentRight .box5 span { display: inline-block; padding: 0 90px 27px; width: 120px; line-height: 22px; font-size: 14px; text-align: center;}
+/*box5*/
+/*右边内容区域*/
+
+.mainCenter .banner { width: 1200px; height: 380px; overflow: hidden;}
+.mainCenter .banner img { width: 1200px; height: 380px; overflow: hidden;}
+/*同城俱乐部轮播图*/
+
+
+
+
+
+
+
+
+
+
+

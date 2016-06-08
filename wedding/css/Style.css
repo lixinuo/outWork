@@ -101,7 +101,7 @@ a:hover {
 .content .contentLeft .article .articleDetail { float: left; width: 814px; padding: 27px;}
 .content .contentLeft .article .articleDetail img { display: inline-block; float: left; width: 446px; height: 264px; overflow: hidden;}
 .content .contentLeft .article .articleDetail .detailRight { float: left; padding-left: 20px; width: 348px; height: 264px; overflow: hidden; position: relative;}
-.content .contentLeft .article .articleDetail h4 { float: left; font-size: 18px;}
+.content .contentLeft .article .articleDetail .articleTitle { float: left; font-size: 18px; cursor: pointer; font-weight: bold;}
 .content .contentLeft .article .articleDetail .detailRight .articleMessage { float: left; padding: 17px 0; width: 100%;}
 .content .contentLeft .article .articleDetail .detailRight .articleMessage span { padding: 0 15px 0 22px;}
 .content .contentLeft .article .articleDetail .detailRight .articleMessage .articlePerson { background: url("../image/forcedIcon.jpg") left center no-repeat; background-position: 0 0;}
@@ -134,7 +134,9 @@ a:hover {
 .content .contentRight .box2 h3 { font-size: 20px; margin: 27px 0 5px 27px; font-weight: normal;}
 .content .contentRight .box2 ul li { float: left; padding: 15px 0 15px 27px; position: relative; z-index: 1;}
 .content .contentRight .box2 ul li .box2Pic { float: left; width: 60px; height: 60px; overflow: hidden; margin-right: 10px;}
-.content .contentRight .box2 ul li .box2Pic img { width: 60px; height: 60px; background-color: #ccc; overflow: hidden;}
+.content .contentRight .box2 ul li .box2Pic img { width: 60px; height: 60px; background-color: #ccc; overflow: hidden; }
+.content .contentRight .box2 ul li .box2Pic .box2Rank { position: absolute; top: 10px; left: 22px; background-color: #feb300; color: #fff; width: 20px; height: 20px; line-height: 20px; text-align: center;}
+.content .contentRight .box2 ul li .box2Pic .rank4 { background: #ccc;}
 .content .contentRight .box2 ul li p { float: left; width: 180px; overflow: hidden; padding-bottom: 5px;}
 .content .contentRight .box2 ul li .box2Name { font-size: 14px;}
 .content .contentRight .box2 ul li .line { position: absolute; bottom: 0; left: 27px; border-top: 1px solid #f5f5f5; width: 249px; z-index: 10;}
